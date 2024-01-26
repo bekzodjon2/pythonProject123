@@ -26,5 +26,5 @@ urlpatterns = [
     path('po/<id>/',portfolio,name="portfolio"),
 ]
 if settings.DEBUG:
-    urlpatterns+=static(settings.STATIC_URL,document_root=settings.STATICFILES_DIRS)
-    urlpatterns+=static(settings.MEDIA_URL,document_root=settings.MEDIAFILE_DIRS)
+    urlpatterns+=static(settings.STATIC_URL,document_roct=settings.STATICFILES_DIRS)
+    urlpatterns+=static(settings.MEDIA_URL,document_roct=settings.MEDIAFILE_DIRS)

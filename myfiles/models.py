@@ -41,12 +41,11 @@ class Servis(models.Model):
     malumot = models.TextField()
     Sana = models.DateField(auto_now=True)
 
-class Contact(models.Model):
-    name = models.CharField(max_length=20)
-    email = models.EmailField(max_length=200)
-    subject = models.CharField(max_length=50)
-    text = models.TextField()
-    date = models.DateField(auto_now=True)
+
+
+
+
+
 
 
 
